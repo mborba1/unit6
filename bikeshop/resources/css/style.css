@@ -3,13 +3,19 @@
 * {
     font-family: "Roboto Condensed", sans-serif;
 }
-.logo  {
+.logo {
   font-family: Roboto;
   font-weight: Normal;
   align-content: center;
   margin-left: 30px;
 }
-p{
+h3 {
+    margin-left: 40px;
+    font-family: 'Open Sans', arial, sans-serif !important;
+    font-size: .5em;
+    font-weight: 800;
+}
+p {
     margin-left: 40px;
 }
 .container{
@@ -74,10 +80,10 @@ p{
 
 .images {
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     justify-content: space-between;
     background-size: cover;
-    border-bottom: 1px solid #dddddd;
+    /*border-bottom: 1px solid #dddddd;*/
     height: 300px;
     position: relative;
     text-align: center;
@@ -107,6 +113,7 @@ p{
     background-position: left;
     width: 31%;
     border-radius: 2%;
+    margin-bottom: 20px;
 }
 
 .banner2{
@@ -114,6 +121,7 @@ p{
     background-position: center;
     width: 31%;
     border-radius: 2%;
+    margin-bottom: 20px;
 }
 
 .banner3 {
@@ -121,6 +129,7 @@ p{
     background-position: right;
     width: 31%;
     border-radius: 2%;
+    margin-bottom: 20px;
 }
 
 .banner4 {
