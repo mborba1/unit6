@@ -243,9 +243,21 @@ p {
     transition: 1s;
     cursor: pointer;
 }
-.bikes-for-sale img:hover, .on-sale img:hover{
-    transform: scale(1.1);
+
+.title, .price {
+    text-align: center;
+    display: block;
+    line-height: 20px;
+    margin-top: 20px;
 }
+.productSalePrice {
+    color: #ec312e;
+    
+}
+/*.bikes-for-sale img:hover, .on-sale img:hover{
+    transform: scale(1.1);
+}*/
+
 
 /*----------------------for sale items -------------*/
 .title-box {
