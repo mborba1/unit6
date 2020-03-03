@@ -231,7 +231,8 @@ p {
     margin-top: 4px;
     margin-right: 8px;
     float: right;
-}   
+} 
+
 /*----------- bikes for sale session ----------------*/
 .bikes-for-sale, .on-sale{
     margin:200px 0px;  
@@ -242,6 +243,7 @@ p {
     padding: 20px 0;
     transition: 1s;
     cursor: pointer;
+    margin-top: 50%;
 }
 
 .title, .price {
@@ -252,7 +254,7 @@ p {
 }
 .productSalePrice {
     color: #ec312e;
-    
+
 }
 /*.bikes-for-sale img:hover, .on-sale img:hover{
     transform: scale(1.1);
